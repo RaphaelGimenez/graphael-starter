@@ -17,6 +17,7 @@ specifiers:
   eslint-import-resolver-typescript: 3.5.2
   eslint-plugin-import: 2.26.0
   eslint-plugin-prettier: 4.2.1
+  eslint-plugin-testing-library: 5.9.1
   husky: 8.0.2
   jest: 29.3.1
   jest-environment-jsdom: 29.3.1
@@ -49,6 +50,7 @@ devDependencies:
   eslint-import-resolver-typescript: 3.5.2_dcpv4nbdr5ks2h5677xdltrk6e
   eslint-plugin-import: 2.26.0_gbipkkcbnjmysmpjttq6vkmfqq
   eslint-plugin-prettier: 4.2.1_v7o5sx5x3wbs57ifz6wc4f76we
+  eslint-plugin-testing-library: 5.9.1_rmayb2veg2btbq6mbmnyivgasy
   husky: 8.0.2
   jest: 29.3.1_@types+node@18.11.9
   jest-environment-jsdom: 29.3.1
@@ -2623,6 +2625,19 @@ packages:
       resolve: 2.0.0-next.4
       semver: 6.3.0
       string.prototype.matchall: 4.0.7
+    dev: true
+
+  /eslint-plugin-testing-library/5.9.1_rmayb2veg2btbq6mbmnyivgasy:
+    resolution: {integrity: sha512-6BQp3tmb79jLLasPHJmy8DnxREe+2Pgf7L+7o09TSWPfdqqtQfRZmZNetr5mOs3yqZk/MRNxpN3RUpJe0wB4LQ==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6'}
+    peerDependencies:
+      eslint: ^7.5.0 || ^8.0.0
+    dependencies:
+      '@typescript-eslint/utils': 5.42.1_rmayb2veg2btbq6mbmnyivgasy
+      eslint: 8.27.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
     dev: true
 
   /eslint-scope/5.1.1:
