@@ -41,3 +41,9 @@ jobs:
 
       - name: Run jest tests
         run: pnpm test:ci
+
+      - name: Run cypress
+        uses: cypress-io/github-action@v4
+        with:
+          build: pnpm build
+          start: pnpm start
