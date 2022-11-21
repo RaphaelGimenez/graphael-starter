@@ -32,12 +32,12 @@
     ]
   },
   "dependencies": {
-    "@testing-library/cypress": "8.0.7",
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@testing-library/cypress": "8.0.7",
     "@commitlint/cli": "17.2.0",
     "@commitlint/config-conventional": "17.2.0",
     "@testing-library/jest-dom": "5.16.5",
