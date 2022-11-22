@@ -5,7 +5,7 @@
 
 describe('Home page', () => {
   it('finds main title', () => {
-    cy.findByRole('heading', { name: /welcome to next\.js!/i });
+    cy.findByRole('heading', { name: /welcome to next\.js!/i }).should('exist');
   });
 });
 
